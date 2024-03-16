@@ -1,0 +1,150 @@
+.box{
+    width: 100%;
+    position: relative;
+    padding: 80px;
+
+}
+.box-title{
+    text-align: center;
+    margin-bottom: 40px;
+
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+/*todo First Impression */
+.box-first-impression{
+    background-color: #587B78;
+    padding-bottom: 19.625rem;
+    margin-bottom: 60px;
+
+}
+.box-image-first-imp{
+    position: absolute;
+    bottom: -3.625rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box-text{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.875rem;
+    max-width: 388px;
+    margin: 0 auto 40px auto;
+
+}
+.box-btns{
+    margin: 0 auto;
+    color: #FFFFFF;
+    width: max-content;
+}
+
+.box-btn{
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+.box-btn:hover{
+    opacity: 0.4;
+    transition: all 0.1s linear;
+}
+.box-btn-primary{
+
+    color: #000000;
+    background-color: white;
+}
+.box-btn-secondary{
+    border: 1px solid white;
+}
+
+/*todo about Us */
+.box-about-us{
+    background-color: #E5E5E5;
+}
+.box-text-black{
+    color: #000000;
+}
+
+
+.box-image{
+    margin: 40px auto 0 auto;
+    width: fit-content;
+    display: block;
+    width: 18.75rem;
+}
+
+
+/*todo About Product */
+
+/*todo My Collections */
+.box-my-collections{
+    background-color: #E5E5E5;
+}
+
+.box-underline{
+    width: 12.5rem;
+    margin: 0 auto;
+}
+
+.cards{
+    width: fit-content;
+    display: flex;
+    margin: 0 auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 0px;
+    width: max-content;
+    background-color: #587B78;
+    margin: 0 40px 40px 40px;
+    flex: 1;
+    padding: 1.5rem;
+    position: relative;
+}
+.card-img{
+    margin: 0 auto;
+    display: block;
+}
+.card-title, .card-price{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+/*todo Service  */
+.card-service{
+    background-color: #F6F6F6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card-title-service{
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 0.875rem;
+}
+.card-img-service{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10%;
+}
+
+/*todo About me */
+.box-about-me{
+    background-color:#E5E5E5;
+}
+.box-image-about-me{
+    width: 10rem;
+    margin-bottom: 40px;
+}
+
+.box-text-about-me{
+    margin: 0 auto 5px auto;
+    color: #000000;
+}

@@ -1,0 +1,52 @@
+.nav{
+    width: 100%;
+    background-color: #587B78;
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+}
+.nav-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.nav-expand{
+    flex: 1;
+}
+.nav-items{
+    top: 0;
+    padding: 4.5rem;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: #587B78;
+    position: absolute;
+    flex-direction: column;
+    z-index: 1;
+    color: #FFFFFF;
+}
+.nav-title{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.nav-item{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    display: block;
+    padding: 0.75rem 0;
+}
+
+@media only screen and (min-width : 45rem){
+    .nav-items{
+        all: unset;
+        display: flex;
+        color: #FFFFFF;
+    }
+    .nav-icon{
+        display: none;
+    }
+}
